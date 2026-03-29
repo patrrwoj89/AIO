@@ -1,0 +1,165 @@
+{
+  "version": "1.35.2",
+  "exportedAt": "2026-03-28T03:23:34.126Z",
+  "config": {
+    "language": "pl-PL",
+    "addonName": "Aiometadata PRO PL 2026 (TV)",
+    "includeAdult": false,
+    "blurThumbs": true,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": false,
+    "sfw": true,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": true,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "mal",
+      "anime_id_provider": "kitsu",
+      "forceAnimeForDetectedImdb": true
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "englishArtOnly": false
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": true,
+      "useImdbIdForCatalogAndSearch": true
+    },
+    "tmdb": {
+      "scrapeImdb": true,
+      "forceLatinCastNames": false
+    },
+    "apiKeys": {
+      "gemini": "AIzaSyCRRwfr71upjVlRz8HwxXd98G0GXIGtEAw",
+      "tmdb": "02951f2ed7350a9bda520334ca76b647",
+      "tvdb": "4c18c304-eacd-4078-aca8-4cf9c075db60",
+      "fanart": "e45465e018b53884d2d6ea24cd368e52",
+      "rpdb": "t0-free-rpdb",
+      "topPoster": "TP-CST3L8VPVmARGEl1seJYqeGFKaUl2kYV",
+      "mdblist": "frwzdnfkwadgsznk6769fpzqv",
+      "openrouter": "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",
+      "trakt": "",
+      "simkl": "",
+      "addonVersion": "1.35.2",
+      "hasBuiltInTvdb": false,
+      "hasBuiltInTmdb": false,
+      "catalogTTL": 21600,
+      "simklTrendingPageSizeOptions": [
+        50,
+        100
+      ],
+      "traktSearchEnabled": false
+    },
+    "posterRatingProvider": "rpdb",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": false,
+    "anilistWatchTracking": true,
+    "simklWatchTracking": false,
+    "traktWatchTracking": true,
+    "enableRatingPostersForLibrary": true,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "Europe/Warsaw",
+    "catalogs": [
+      {
+        "id": "tmdb.trending",
+        "name": "🔥 Trendujące filmy",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "⭐ Najwyżej oceniane filmy",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "📡 Trendujące seriale (TVDB)",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "tmdb.airing_today",
+        "name": "🆕 Nowe odcinki dzisiaj",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "tvmaze.schedule",
+        "name": "📅 Dzisiejsza ramówka TV",
+        "type": "series",
+        "source": "tvmaze",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "mal.airing",
+        "name": "🍿 Anime aktualnie emitowane",
+        "type": "anime",
+        "source": "mal",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "mal.top_anime",
+        "name": "🏆 Najlepiej oceniane anime",
+        "type": "anime",
+        "source": "mal",
+        "enabled": true,
+        "showInHome": true
+      },
+      {
+        "id": "mal.most_popular",
+        "name": "🔥 Najpopularniejsze anime",
+        "type": "anime",
+        "source": "mal",
+        "enabled": true,
+        "showInHome": true
+      }
+    ],
+    "lastModified": 1774667931819,
+    "configVersion": 1774667931820,
+    "configHash": "473f5a1116a7b8e0"
+  },
+  "metadata": {
+    "apiKeysExcluded": false,
+    "totalCatalogs": 8,
+    "enabledCatalogs": 8
+  }
+}
